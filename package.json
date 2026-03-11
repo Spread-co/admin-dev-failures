@@ -1,0 +1,12 @@
+{
+  "name": "admin-dev-failures",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "weweb serve",
+    "build": "weweb build --name=admin-dev-failures --type=element"
+  },
+  "devDependencies": {
+    "@weweb/cli": "latest"
+  }
+}
