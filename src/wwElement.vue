@@ -488,4 +488,16 @@ export default {
 @media (max-width: 479px) {
   .spread-df { padding: 0.75rem; }
 }
+@media (min-width: 480px) {
+  .spread-df { padding: 1rem; }
+}
+@media (min-width: 768px) {
+  .spread-df { padding: 1.25rem; }
+}
+@media (min-width: 1024px) {
+  .spread-df { padding: 1.5rem 2rem; }
+}
+@media (min-width: 1280px) {
+  .spread-df { padding: 1.5rem 2.5rem; }
+}
 </style>
