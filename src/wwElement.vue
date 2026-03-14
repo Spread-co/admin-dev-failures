@@ -360,6 +360,9 @@ export default {
   box-sizing: border-box;
   padding: 1.5rem;
   background: var(--spread-background);
+  max-width: 1440px;
+  margin-inline: auto;
+  position: relative;
 }
 
 .spread-df *, .spread-df *::before, .spread-df *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -481,5 +484,8 @@ export default {
   .spread-df__health-segment, .spread-df__health-total { flex: none; width: 50%; }
   .spread-df__alert-item { flex-direction: column; }
   .spread-df__alert-actions { flex-direction: row; align-self: stretch; }
+}
+@media (max-width: 479px) {
+  .spread-df { padding: 0.75rem; }
 }
 </style>
