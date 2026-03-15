@@ -504,21 +504,21 @@ export default {
 /* ── Dark mode ─────────────────────────────────────────────────────── */
 :global(html.dark) .spread-df {
   background: #000000;
-  color: #f5f0eb;
+  color: #e6d8ca;
   --spread-cream: #18181b;
   --spread-border: rgba(230, 216, 202, 0.12);
-  --spread-text-primary: #f5f0eb;
+  --spread-text-primary: #e6d8ca;
   --spread-text-secondary: rgba(230, 216, 202, 0.65);
   --spread-text-muted: rgba(230, 216, 202, 0.4);
 }
 :global(html.dark) .spread-df__card { background: #18181b; border-color: rgba(230,216,202,0.12); }
-:global(html.dark) .spread-df__row-title { color: #f5f0eb; }
+:global(html.dark) .spread-df__row-title { color: #e6d8ca; }
 :global(html.dark) .spread-df__row-meta { color: rgba(230,216,202,0.5); }
 :global(html.dark) .spread-df__row-detail { color: rgba(230,216,202,0.65); }
 :global(html.dark) .spread-df__badge--error { background: rgba(209,67,67,0.12); color: #fca5a5; }
 :global(html.dark) .spread-df__badge--warn { background: rgba(250,204,21,0.12); color: #fbbf24; }
 :global(html.dark) .spread-df__divider { border-color: rgba(230,216,202,0.08); }
 :global(html.dark) .spread-df__empty { color: rgba(230,216,202,0.4); }
-:global(html.dark) .spread-df__section-title { color: #f5f0eb; }
-:global(html.dark) .spread-df input { background: #160c11; border-color: rgba(230,216,202,0.2); color: #f5f0eb; }
+:global(html.dark) .spread-df__section-title { color: #e6d8ca; }
+:global(html.dark) .spread-df input { background: #160c11; border-color: rgba(230,216,202,0.2); color: #e6d8ca; }
 </style>
